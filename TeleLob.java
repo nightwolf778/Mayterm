@@ -26,6 +26,7 @@ public class TeleLob extends StateBasedGame{
 	@Override
 	public void initStatesList(GameContainer container) throws SlickException {
 		this.addState(new GameStateMenu());
+		this.addState(new Level0());
 		
 	}
 
